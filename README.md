@@ -51,26 +51,91 @@ pip install scipdf-parser
 
 
 
-## Extract Figures from Papers using pdffigures2
+# Installation
 
-The pipeline requires figure metadata extracted using pdffigures2.
+## 1. Create a Python Environment
 
-Clone pdffigures2
+conda create -n scidoc-diagram python=3.10
+conda activate scidoc-diagram
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+---
+
+# Install and Run GROBID
+
+The **SciPDF parser requires GROBID** to extract structured content from research papers.
+
+Clone GROBID:
+
+git clone https://github.com/kermitt2/grobid.git
+cd grobid
+
+Run the server:
+
+./gradlew run
+
+The service will run at:
+
+http://localhost:8070
+
+---
+
+# Install SciPDF Parser
+
+pip install scipdf-parser
+
+---
+
+# Extract Figures Using pdffigures2
+
 git clone https://github.com/allenai/pdffigures2
 cd pdffigures2
-Build the project
 sbt assembly
-Extract figures from a PDF
-java -jar target/scala-2.12/pdffigures2-assembly-*.jar \
-    paper.pdf \
-    -m output/
+
+Extract figures:
+
+java -jar target/scala-2.12/pdffigures2-assembly-*.jar paper.pdf -m output/
 
 This generates:
 
 output/
-   json/paper.json
-   figures/*.png
+  json/paper.json
+  figures/*.png
 
+Move the JSON file into your experiment directory.
 
-Move the JSON file into the experiment directory.
+---
+
+# Example Experiment Directory
+
+experiments/
+  NASH/
+    paper.pdf
+    intent.txt
+    pdffigures.json
+
+Example intent:
+
+Create a bar chart comparing the precision of NASH with the three best baselines on the Reuters dataset.
+
+---
+
+# Running the Pipeline
+
+python main.py experiments/NASH
+
+The pipeline will:
+
+1. Parse the paper with SciPDF
+2. Load figures extracted by pdffigures2
+3. Extract structured visual data
+4. Build a multimodal retriever
+5. Generate diagram code
+6. Render the diagram
+7. Refine the diagram using MAF critics
+
+---
 
