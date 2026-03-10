@@ -6,7 +6,7 @@ from utils.io_utils import save_text
 client = AzureOpenAI(
     api_version="2024-12-01-preview",
     azure_endpoint="https://docexpresearch-api.azure-api.net/gpt4-docexpresearch",
-    api_key="acb0aac95da54559be250d96f270a297"
+    api_key=""
 )
 
 def call_llm(prompt, name=None):
@@ -24,5 +24,6 @@ def call_llm(prompt, name=None):
 
     if name:
         save_text(name + "_response", out)
+
 
     return out
