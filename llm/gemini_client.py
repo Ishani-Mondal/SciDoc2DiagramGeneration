@@ -3,7 +3,7 @@ from google import genai
 from PIL import Image
 from utils.io_utils import save_text
 
-gemini_client = genai.Client(api_key="AIzaSyCD-jC2tSyL8TZUbyf5cyYiWIqtDaxm1kQ")
+gemini_client = genai.Client(api_key="")
 
 def call_gemini_image(prompt, image_path, name=None):
 
@@ -19,5 +19,6 @@ def call_gemini_image(prompt, image_path, name=None):
     if name:
         save_text(name + "_vision_prompt", prompt)
         save_text(name + "_vision_response", out)
+
 
     return out
