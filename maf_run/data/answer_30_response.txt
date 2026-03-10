@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What datasets are used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of Table 5?",
+    "Answer": "Table 5 shows examples of learned binary hashing codes on the 20Newsgroups dataset, demonstrating that documents with shared topics have similar binary codes, while those with different topics exhibit larger Hamming distances."
+  },
+  {
+    "Question": "What does Table 4 represent?",
+    "Answer": "Table 4 presents the precision of the top 100 retrieved documents on the TMC dataset for various hashing methods and bit lengths."
+  },
+  {
+    "Question": "What is the significance of Figure 2?",
+    "Answer": "Figure 2 compares the precision of the top 100 retrieved documents on the Reuters dataset using supervised hashing methods, showing NASH-DN-S outperforming other baselines."
+  },
+  {
+    "Question": "What is the main contribution of the paper?",
+    "Answer": "The paper introduces NASH, the first end-to-end semantic hashing architecture, leveraging neural variational inference and rate-distortion theory to learn compact binary codes for documents."
+  },
+  {
+    "Question": "What is the purpose of injecting noise into latent variables?",
+    "Answer": "Injecting data-dependent noise into latent variables improves retrieval performance by exploring trade-offs between rate and distortion objectives during training."
+  },
+  {
+    "Question": "What does Table 6 analyze?",
+    "Answer": "Table 6 presents an ablation study on different encoder/decoder networks, showing that increasing encoder non-linearity improves retrieval precision, while non-linear decoders reduce performance."
+  },
+  {
+    "Question": "What is the role of stochastic binarization in NASH?",
+    "Answer": "Stochastic binarization improves retrieval results by introducing more stochasticity in the sampling process of latent variables."
+  },
+  {
+    "Question": "What is the evaluation metric for hashing codes?",
+    "Answer": "Precision is used, calculated as the percentage of relevant documents among the top 100 retrieved documents based on Hamming distances."
+  },
+  {
+    "Question": "What does Table 1 demonstrate?",
+    "Answer": "Table 1 shows that NASH variants outperform baseline methods in unsupervised semantic hashing on the Reuters dataset, highlighting the effectiveness of noise injection and adaptive variance."
+  }
+]
+```

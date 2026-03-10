@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN on the Reuters dataset with 8-bit codes?",
+    "Answer": "0.7470"
+  },
+  {
+    "Question": "What are the five nearest words in the semantic space learned by NASH for the category 'weapons'?",
+    "Answer": "['gun', 'guns', 'weapon', 'armed', 'assault']"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN-S on the TMC dataset with 128-bit codes?",
+    "Answer": "0.8139"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Dave Kingman for the hall of fame' in the 8-bit format?",
+    "Answer": "11101001"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Building a UV flashlight' in the 16-bit format?",
+    "Answer": "0010001000101011"
+  },
+  {
+    "Question": "What is the encoder precision for the 'linear' network in the ablation study?",
+    "Answer": "0.5844"
+  },
+  {
+    "Question": "What is the decoder precision for the 'two-layer MLP' network in the ablation study?",
+    "Answer": "0.1047"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN on the 20Newsgroups dataset with 32-bit codes?",
+    "Answer": "0.6225"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN-S on the Reuters dataset with 64-bit codes?",
+    "Answer": "0.97"
+  },
+  {
+    "Question": "What is the vocabulary size for the TMC dataset used in the experiments?",
+    "Answer": "20,000"
+  }
+]
+```

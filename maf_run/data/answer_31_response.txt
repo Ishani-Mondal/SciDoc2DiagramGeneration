@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "question": "What is the preferred format or resolution for the generated bar chart (e.g., PNG, SVG)?",
+    "answer": "NA"
+  }
+]
+```

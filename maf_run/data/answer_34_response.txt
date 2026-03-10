@@ -1,0 +1,24 @@
+```json
+[
+    {
+        "Question": "What is the title of Table 5?",
+        "Answer": "Examples of learned compact hashing codes on 20Newsgroups dataset."
+    },
+    {
+        "Question": "What is the 8-bit code for the title 'Dave Kingman for the hall of fame'?",
+        "Answer": "11101001"
+    },
+    {
+        "Question": "What is the 16-bit code for the title 'Building a UV flashlight'?",
+        "Answer": "0010001000101011"
+    },
+    {
+        "Question": "What is the category of the title 'Why is Barry Bonds not batting 4th?'?",
+        "Answer": "Baseball"
+    },
+    {
+        "Question": "What is the category of the title 'How to drive an array of LEDs'?",
+        "Answer": "Electronics"
+    }
+]
+```

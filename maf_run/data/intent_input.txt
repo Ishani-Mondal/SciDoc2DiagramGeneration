@@ -1,0 +1,3 @@
+
+Create a bar chart comparing precision of NASH
+with the three best baselines on the Reuters dataset.

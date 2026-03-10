@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What datasets were used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of semantic hashing?",
+    "Answer": "Semantic hashing is used for fast similarity search by representing documents as binary hashing codes and evaluating similarity through Hamming distances."
+  },
+  {
+    "Question": "What are the key contributions of the paper?",
+    "Answer": "1. First end-to-end semantic hashing architecture. 2. Neural variational inference framework for compact binary codes. 3. Connection to rate-distortion theory with data-dependent noise injection."
+  },
+  {
+    "Question": "What are the variants of the NASH model?",
+    "Answer": "NASH, NASH-N, NASH-DN, and NASH-DN-S."
+  },
+  {
+    "Question": "What is the role of the encoder and decoder networks in NASH?",
+    "Answer": "The encoder maps input documents to binary latent codes, while the decoder reconstructs the input documents from the binary codes."
+  },
+  {
+    "Question": "What is the advantage of stochastic binarization over deterministic binarization?",
+    "Answer": "Stochastic binarization improves retrieval results by introducing more variability in the sampling process of latent variables."
+  },
+  {
+    "Question": "What is the significance of injecting data-dependent noise into latent variables?",
+    "Answer": "It allows the model to adaptively explore trade-offs between rate and distortion objectives, improving retrieval performance."
+  },
+  {
+    "Question": "What is the evaluation metric for semantic hashing?",
+    "Answer": "Precision of the top 100 retrieved documents based on Hamming distances."
+  },
+  {
+    "Question": "What are the unsupervised baselines compared in the study?",
+    "Answer": "LSH, S-RBM, SpH, STH, and VDSH."
+  },
+  {
+    "Question": "What are the supervised baselines compared in the study?",
+    "Answer": "KSH, SHTTM, VDSH-S, and VDSH-SP."
+  }
+]
+```

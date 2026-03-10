@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN with stochastic binary latent variables on the Reuters dataset?",
+    "Answer": "0.84"
+  },
+  {
+    "Question": "What are the five nearest words in the semantic space learned by NASH for the category 'weapons'?",
+    "Answer": "['gun', 'guns', 'weapon', 'armed', 'assault']"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN on the TMC dataset with 32 bits?",
+    "Answer": "0.7327"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Dave Kingman for the hall of fame' in the 20Newsgroups dataset?",
+    "Answer": "{'8-bit code': '11101001', '16-bit code': '0010110100000110'}"
+  },
+  {
+    "Question": "What is the ablation study result for a linear encoder network in terms of precision?",
+    "Answer": "0.5844"
+  },
+  {
+    "Question": "What is the variational lower bound equation used in the NASH framework?",
+    "Answer": "L vae = E q φ (z|x) [log q θ (x|z)] - D KL (q φ (z|x)||p(z))"
+  },
+  {
+    "Question": "What datasets were used for training and evaluation in the NASH framework?",
+    "Answer": "Reuters21578, 20Newsgroups, TMC"
+  },
+  {
+    "Question": "What is the main contribution of the NASH framework?",
+    "Answer": "End-to-end semantic hashing architecture using neural variational inference and rate-distortion theory."
+  }
+]
+```

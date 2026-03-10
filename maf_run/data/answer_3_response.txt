@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "Dataset Details: Are there any specific subsets or categories within the Reuters dataset that the precision values are based on?",
+    "Answer": "Yes, the Reuters21578 dataset contains 10,788 news documents classified into 90 different categories."
+  }
+]
+```

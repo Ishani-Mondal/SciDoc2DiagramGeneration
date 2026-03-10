@@ -1,0 +1,11 @@
+```json
+[
+  {
+    "Question": "Bar Chart Labels: What labels should be used for the x-axis (e.g., 'Models') and y-axis (e.g., 'Precision')?",
+    "Answer": {
+      "x-axis": "Number of Bits",
+      "y-axis": "Precision (%)"
+    }
+  }
+]
+```

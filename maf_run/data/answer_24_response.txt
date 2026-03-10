@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What datasets were used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of Table 5?",
+    "Answer": "Table 5 shows examples of learned binary hashing codes on the 20Newsgroups dataset, demonstrating that documents with shared topics have similar binary codes, while those with different topics exhibit larger Hamming distances."
+  },
+  {
+    "Question": "What is the significance of Figure 2?",
+    "Answer": "Figure 2 compares the precision of the top 100 retrieved documents on the Reuters dataset using supervised hashing methods, showing that NASH-DN-S consistently outperforms other baselines."
+  },
+  {
+    "Question": "What is the main contribution of the paper?",
+    "Answer": "The paper introduces the first end-to-end semantic hashing architecture, proposes a neural variational inference framework for compact binary codes, and establishes a connection to rate-distortion theory."
+  },
+  {
+    "Question": "What is the role of stochastic binarization in NASH?",
+    "Answer": "Stochastic binarization improves retrieval results by introducing more stochasticity in the sampling process of latent variables, as shown in Figure 3."
+  },
+  {
+    "Question": "What is the purpose of injecting data-dependent noise into latent variables?",
+    "Answer": "Injecting data-dependent noise into latent variables during decoding improves retrieval performance by adaptively exploring trade-offs between rate and distortion objectives."
+  },
+  {
+    "Question": "What is the significance of Table 6?",
+    "Answer": "Table 6 presents an ablation study showing that increasing encoder non-linearity improves retrieval precision, while overly expressive decoders reduce the quality of binary representations."
+  },
+  {
+    "Question": "What is the evaluation metric for hashing codes?",
+    "Answer": "Precision is used, calculated as the percentage of retrieved documents that share the same label as the query document, averaged over all test documents."
+  },
+  {
+    "Question": "What are the variants of the NASH model?",
+    "Answer": "NASH, NASH-N (fixed random noise in decoder), and NASH-DN (adaptive noise in decoder)."
+  },
+  {
+    "Question": "What is the purpose of Table 2?",
+    "Answer": "Table 2 compares the semantic space learned by NASH and NVDM, showing that NASH effectively groups semantically similar words despite using binary latent variables."
+  }
+]
+```

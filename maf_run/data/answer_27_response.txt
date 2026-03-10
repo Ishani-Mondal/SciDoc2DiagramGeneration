@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "Question": "What datasets were used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of Table 5?",
+    "Answer": "Table 5 shows examples of learned binary hashing codes on the 20Newsgroups dataset, demonstrating that documents with shared topics have similar binary codes, while those with different topics exhibit larger Hamming distances."
+  },
+  {
+    "Question": "What does Figure 2 illustrate?",
+    "Answer": "Figure 2 illustrates the precision of the top 100 retrieved documents on the Reuters dataset (Supervised hashing), comparing NASH-DN-S with other supervised baselines."
+  },
+  {
+    "Question": "What is the significance of stochastic sampling in NASH?",
+    "Answer": "Stochastic sampling improves retrieval results across datasets by enhancing the learned representations of binary latent variables."
+  },
+  {
+    "Question": "What is the main contribution of the NASH model?",
+    "Answer": "NASH is the first semantic hashing architecture trained end-to-end, leveraging neural variational inference to learn compact binary codes for documents and injecting data-dependent noise to optimize the rate-distortion tradeoff."
+  },
+  {
+    "Question": "What does Table 6 analyze?",
+    "Answer": "Table 6 analyzes the impact of different encoder/decoder networks, showing that increasing encoder non-linearity improves retrieval precision, while non-linear decoders reduce performance."
+  },
+  {
+    "Question": "What is the purpose of semantic hashing?",
+    "Answer": "Semantic hashing enables fast similarity search by representing documents as binary codes, allowing efficient computation of pairwise Hamming distances."
+  },
+  {
+    "Question": "What is the role of the variational lower bound in NASH?",
+    "Answer": "The variational lower bound is used to jointly optimize the encoder and decoder networks, abstracting semantic features from documents."
+  }
+]
+```

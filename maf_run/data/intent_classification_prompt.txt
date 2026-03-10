@@ -1,0 +1,15 @@
+
+Classify the diagram intent into one of the following:
+
+1. Extrapolated-Flowchart
+2. Extrapolated-Summary
+3. Extrapolated-Architecture
+4. Extrapolated-Results
+
+Intent:
+
+Create a bar chart comparing precision of NASH
+with the three best baselines on the Reuters dataset.
+
+
+Return only the label.

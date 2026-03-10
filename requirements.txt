@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu
+matplotlib
+scipdf-parser
+openai
+google-generativeai
+numpy
+pandas
+plotnine

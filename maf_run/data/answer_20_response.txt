@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN on the Reuters dataset with 16 bits?",
+    "Answer": "0.8013"
+  },
+  {
+    "Question": "What are the five nearest words in the semantic space learned by NASH for the category 'weapons'?",
+    "Answer": "['gun', 'guns', 'weapon', 'armed', 'assault']"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN-S on the TMC dataset with 128 bits?",
+    "Answer": "0.8139"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Building a UV flashlight' in the 20Newsgroups dataset?",
+    "Answer": "8-bit code: '10110100', 16-bit code: '0010001000101011'"
+  },
+  {
+    "Question": "What is the ablation study result for a linear encoder network?",
+    "Answer": "Encoder: 0.5844, Decoder: 0.6225"
+  }
+]
+```

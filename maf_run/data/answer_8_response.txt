@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "What should be the title of the bar chart?",
+    "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Supervised hashing), compared with other supervised baselines."
+  }
+]
+```

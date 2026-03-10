@@ -1,0 +1,68 @@
+```json
+[
+    {
+        "Question": "What is the title of Table 4?",
+        "Answer": "Precision of the top 100 retrieved documents on TMC dataset."
+    },
+    {
+        "Question": "What is the precision of NASH-DN for 16-bit codes on the TMC dataset?",
+        "Answer": "0.6956"
+    },
+    {
+        "Question": "What is the title of Table 3?",
+        "Answer": "Precision of the top 100 retrieved documents on 20Newsgroups dataset."
+    },
+    {
+        "Question": "What is the precision of VDSH-S for 32-bit codes on the 20Newsgroups dataset?",
+        "Answer": "0.7564"
+    },
+    {
+        "Question": "What is the title of Table 1?",
+        "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Unsupervised hashing)."
+    },
+    {
+        "Question": "What is the precision of NASH-DN for 32-bit codes on the Reuters dataset?",
+        "Answer": "0.8418"
+    },
+    {
+        "Question": "What is the title of Table 5?",
+        "Answer": "Examples of learned compact hashing codes on 20Newsgroups dataset."
+    },
+    {
+        "Question": "What is the 8-bit code for the document titled 'Dave Kingman for the hall of fame'?",
+        "Answer": "11101001"
+    },
+    {
+        "Question": "What is the title of Table 6?",
+        "Answer": "Ablation study with different encoder/decoder networks."
+    },
+    {
+        "Question": "What is the encoder precision for a two-layer MLP in Table 6?",
+        "Answer": "0.6225"
+    },
+    {
+        "Question": "What is the title of Table 2?",
+        "Answer": "The five nearest words in the semantic space learned by NASH, compared with the results from NVDM (Miao et al., 2016)."
+    },
+    {
+        "Question": "What are the five nearest words to 'weapons' learned by NASH?",
+        "Answer": "['gun', 'guns', 'weapon', 'armed', 'assault']"
+    },
+    {
+        "Question": "What is the title of Figure 2?",
+        "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Supervised hashing), compared with other supervised baselines."
+    },
+    {
+        "Question": "What is the precision of NASH-DN-S for 32-bit codes in Figure 2?",
+        "Answer": "0.965"
+    },
+    {
+        "Question": "What is the title of Figure 3?",
+        "Answer": "The precisions of the top 100 retrieved documents for NASH-DN with stochastic or deterministic binary latent variables."
+    },
+    {
+        "Question": "What is the precision of stochastic binary latent variables for the TMC dataset in Figure 3?",
+        "Answer": "0.73"
+    }
+]
+```

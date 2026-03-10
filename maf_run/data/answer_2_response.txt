@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "Baseline Names: What are the names of the three best baselines to be compared with NASH?",
+    "Answer": ["Locality Sensitive Hashing (LSH)", "Stack Restricted Boltzmann Machines (S-RBM)", "Spectral Hashing (SpH)"]
+  }
+]
+```

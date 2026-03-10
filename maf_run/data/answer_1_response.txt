@@ -1,0 +1,37 @@
+```json
+[
+  {
+    "Question": "Precision Values: What are the precision values for NASH and the three best baselines on the Reuters dataset? Please provide the exact numerical values.",
+    "Answer": {
+      "NASH": {
+        "8 bits": 0.7113,
+        "16 bits": 0.7624,
+        "32 bits": 0.7993,
+        "64 bits": 0.7812,
+        "128 bits": 0.7559
+      },
+      "NASH-DN": {
+        "8 bits": 0.747,
+        "16 bits": 0.8013,
+        "32 bits": 0.8418,
+        "64 bits": 0.8297,
+        "128 bits": 0.7924
+      },
+      "VDSH": {
+        "8 bits": 0.6859,
+        "16 bits": 0.7165,
+        "32 bits": 0.7753,
+        "64 bits": 0.7456,
+        "128 bits": 0.7318
+      },
+      "STH": {
+        "8 bits": 0.6616,
+        "16 bits": 0.7351,
+        "32 bits": 0.7554,
+        "64 bits": 0.735,
+        "128 bits": 0.6986
+      }
+    }
+  }
+]
+```

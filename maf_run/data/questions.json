@@ -1,0 +1,14 @@
+[
+  "Here are specific and focused clarification questions to extract the necessary information for generating the bar chart based on the provided intent:",
+  "1. **Precision Values**: What are the precision values for NASH and the three best baselines on the Reuters dataset? Please provide the exact numerical values.",
+  "2. **Baseline Names**: What are the names of the three best baselines to be compared with NASH?",
+  "3. **Dataset Details**: Are there any specific subsets or categories within the Reuters dataset that the precision values are based on?",
+  "4. **Units**: Are the precision values expressed as percentages or decimal values (e.g., 85% or 0.85)?",
+  "5. **Bar Chart Labels**: What labels should be used for the x-axis (e.g., \"Models\") and y-axis (e.g., \"Precision\")?",
+  "6. **Color Scheme**: Do you have any preferences for the color scheme of the bars representing NASH and the baselines?",
+  "7. **Order of Bars**: Should the bars be ordered in a specific way (e.g., descending precision values or alphabetical order of model names)?",
+  "8. **Title**: What should be the title of the bar chart?",
+  "9. **Additional Information**: Should any additional information, such as error bars or annotations, be included in the chart?",
+  "10. **Output Format**: Should the JSON list include only the data for the bar chart (e.g., model names and precision values), or should it also include metadata like axis labels, title, and color preferences?",
+  "These questions aim to gather all the necessary details to accurately generate the bar chart and return the JSON list."
+]

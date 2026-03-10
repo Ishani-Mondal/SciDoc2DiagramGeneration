@@ -1,0 +1,70 @@
+```json
+[
+  {
+    "Question": "What is the title of the bar chart?",
+    "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Supervised hashing), compared with other supervised baselines."
+  },
+  {
+    "Question": "What is the x-axis label?",
+    "Answer": "Number of Bits"
+  },
+  {
+    "Question": "What is the y-axis label?",
+    "Answer": "Precision (%)"
+  },
+  {
+    "Question": "What are the x-axis values?",
+    "Answer": [8, 16, 32, 64, 128]
+  },
+  {
+    "Question": "What are the series data for KSH?",
+    "Answer": [
+      {"x": 8, "y": 0.785},
+      {"x": 16, "y": 0.845},
+      {"x": 32, "y": 0.85},
+      {"x": 64, "y": 0.855},
+      {"x": 128, "y": 0.86}
+    ]
+  },
+  {
+    "Question": "What are the series data for SHTTM?",
+    "Answer": [
+      {"x": 8, "y": 0.798},
+      {"x": 16, "y": 0.85},
+      {"x": 32, "y": 0.838},
+      {"x": 64, "y": 0.825},
+      {"x": 128, "y": 0.813}
+    ]
+  },
+  {
+    "Question": "What are the series data for VDSH-S?",
+    "Answer": [
+      {"x": 8, "y": 0.895},
+      {"x": 16, "y": 0.925},
+      {"x": 32, "y": 0.94},
+      {"x": 64, "y": 0.945},
+      {"x": 128, "y": 0.935}
+    ]
+  },
+  {
+    "Question": "What are the series data for VDSH-SP?",
+    "Answer": [
+      {"x": 8, "y": 0.885},
+      {"x": 16, "y": 0.93},
+      {"x": 32, "y": 0.935},
+      {"x": 64, "y": 0.94},
+      {"x": 128, "y": 0.945}
+    ]
+  },
+  {
+    "Question": "What are the series data for NASH-DN-S?",
+    "Answer": [
+      {"x": 8, "y": 0.93},
+      {"x": 16, "y": 0.955},
+      {"x": 32, "y": 0.97},
+      {"x": 64, "y": 0.975},
+      {"x": 128, "y": 0.965}
+    ]
+  }
+]
+```

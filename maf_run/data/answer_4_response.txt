@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "Are the precision values expressed as percentages or decimal values (e.g., 85% or 0.85)?",
+    "Answer": "The precision values are expressed as decimal values (e.g., 0.85)."
+  }
+]
+```

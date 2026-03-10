@@ -1,0 +1,12 @@
+
+Your intent of coming up with the diagram creation is provided below. Generate clarification
+questions based on the intent what information needs to be extracted so that you can generate the
+diagram based on the intent. The questions should be specific and focused on extracting the necessary information for diagram generation. Avoid asking questions that are too broad or unrelated to the intent.
+
+Intent:
+
+Create a bar chart comparing precision of NASH
+with the three best baselines on the Reuters dataset.
+
+
+Return JSON list.

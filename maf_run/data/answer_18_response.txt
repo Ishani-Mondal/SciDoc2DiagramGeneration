@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What datasets were used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of semantic hashing?",
+    "Answer": "Semantic hashing is used for fast similarity search by representing documents as binary hashing codes and evaluating similarity through Hamming distances."
+  },
+  {
+    "Question": "What are the key contributions of the paper?",
+    "Answer": "1. First end-to-end semantic hashing architecture. 2. Neural variational inference framework for compact binary codes. 3. Connection to rate-distortion theory with data-dependent noise injection."
+  },
+  {
+    "Question": "What are the variants of the NASH model?",
+    "Answer": "NASH, NASH-N, NASH-DN, and NASH-DN-S."
+  },
+  {
+    "Question": "What is the role of the encoder and decoder networks in NASH?",
+    "Answer": "The encoder maps input documents to binary latent codes, while the decoder reconstructs the input documents from the binary codes."
+  },
+  {
+    "Question": "What is the significance of stochastic binarization in NASH?",
+    "Answer": "Stochastic binarization improves retrieval performance by introducing more flexibility in the learned representations."
+  },
+  {
+    "Question": "What is the evaluation metric for retrieval performance?",
+    "Answer": "Precision of the top 100 retrieved documents based on Hamming distances."
+  },
+  {
+    "Question": "What is the impact of longer hashing codes on retrieval performance?",
+    "Answer": "Longer codes may lead to fewer neighbor documents being retrieved and potential overfitting."
+  },
+  {
+    "Question": "What is the role of rate-distortion theory in NASH?",
+    "Answer": "It provides a framework to balance between code length (rate) and reconstruction error (distortion) during training."
+  },
+  {
+    "Question": "What are the advantages of end-to-end training in NASH?",
+    "Answer": "End-to-end training avoids suboptimal local optima and ensures better optimization of binary codes."
+  }
+]
+```

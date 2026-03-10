@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "Additional Information: Should any additional information, such as error bars or annotations, be included in the chart?",
+    "Answer": "NA"
+  }
+]
+```

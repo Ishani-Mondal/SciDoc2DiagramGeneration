@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN with stochastic binary latent variables on the Reuters dataset?",
+    "Answer": "0.84"
+  },
+  {
+    "Question": "What are the five nearest words in the semantic space learned by NASH for the category 'weapons'?",
+    "Answer": "['gun', 'guns', 'weapon', 'armed', 'assault']"
+  },
+  {
+    "Question": "What is the precision of the top 100 retrieved documents for NASH-DN on the TMC dataset with 32 bits?",
+    "Answer": "0.7327"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Dave Kingman for the hall of fame' in the 20Newsgroups dataset (8-bit code)?",
+    "Answer": "11101001"
+  },
+  {
+    "Question": "What is the hashing code for the document titled 'Building a UV flashlight' in the 20Newsgroups dataset (16-bit code)?",
+    "Answer": "0010001000101011"
+  },
+  {
+    "Question": "What is the encoder precision for a linear network in the ablation study?",
+    "Answer": "0.5844"
+  },
+  {
+    "Question": "What is the decoder precision for a two-layer MLP network in the ablation study?",
+    "Answer": "0.1047"
+  },
+  {
+    "Question": "What is the retrieval precision for NASH-DN-S on the Reuters dataset with 128 bits?",
+    "Answer": "0.95"
+  },
+  {
+    "Question": "What is the TFIDF vocabulary size for the TMC dataset?",
+    "Answer": "20,000"
+  },
+  {
+    "Question": "What is the learning rate used for training the NASH model?",
+    "Answer": "1 × 10^-3"
+  }
+]
+```

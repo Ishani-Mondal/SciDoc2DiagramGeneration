@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "Question": "What datasets were used for training and evaluation?",
+    "Answer": "Reuters21578, 20Newsgroups, and TMC datasets."
+  },
+  {
+    "Question": "What is the purpose of semantic hashing?",
+    "Answer": "Semantic hashing is used for fast similarity search by representing documents as binary hashing codes and evaluating their similarity through Hamming distances."
+  },
+  {
+    "Question": "What are the key contributions of the paper?",
+    "Answer": "1. First end-to-end semantic hashing architecture. 2. Neural variational inference framework for compact binary codes. 3. Connection to rate-distortion theory with data-dependent noise injection."
+  },
+  {
+    "Question": "What are the variants of the NASH model?",
+    "Answer": "NASH, NASH-N, NASH-DN, and NASH-DN-S."
+  },
+  {
+    "Question": "What is the role of the encoder and decoder networks in NASH?",
+    "Answer": "The encoder abstracts semantic features from documents, while the decoder reconstructs text data from binary representations."
+  },
+  {
+    "Question": "What is the significance of injecting data-dependent noise into latent variables?",
+    "Answer": "It improves retrieval performance by exploring trade-offs between rate and distortion objectives adaptively."
+  },
+  {
+    "Question": "What is the evaluation metric for retrieval performance?",
+    "Answer": "Precision of the top 100 retrieved documents based on Hamming distances."
+  },
+  {
+    "Question": "What are the advantages of stochastic binarization over deterministic binarization?",
+    "Answer": "Stochastic binarization improves retrieval results by adding more flexibility to the learned representations."
+  },
+  {
+    "Question": "What is the impact of non-linear decoder networks on retrieval precision?",
+    "Answer": "Non-linear decoders reduce retrieval precision as they may lead to less meaningful binary representations."
+  },
+  {
+    "Question": "What is the theoretical foundation of the proposed method?",
+    "Answer": "Rate-distortion theory, which balances code length and reconstruction error during training."
+  }
+]
+```

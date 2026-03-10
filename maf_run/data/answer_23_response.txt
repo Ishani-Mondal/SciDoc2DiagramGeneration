@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "Question": "What is the title of Table 1?",
+    "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Unsupervised hashing)."
+  },
+  {
+    "Question": "What is the title of Table 2?",
+    "Answer": "The five nearest words in the semantic space learned by NASH, compared with the results from NVDM (Miao et al., 2016)."
+  },
+  {
+    "Question": "What is the title of Table 3?",
+    "Answer": "Precision of the top 100 retrieved documents on 20Newsgroups dataset."
+  },
+  {
+    "Question": "What is the title of Table 4?",
+    "Answer": "Precision of the top 100 retrieved documents on TMC dataset."
+  },
+  {
+    "Question": "What is the title of Table 5?",
+    "Answer": "Examples of learned compact hashing codes on 20Newsgroups dataset."
+  },
+  {
+    "Question": "What is the title of Table 6?",
+    "Answer": "Ablation study with different encoder/decoder networks."
+  },
+  {
+    "Question": "What is the title of Figure 1?",
+    "Answer": "NASH for end-to-end semantic hashing. The inference network maps x→ z using an MLP and the generative network recovers x as z → x̂."
+  },
+  {
+    "Question": "What is the title of Figure 2?",
+    "Answer": "Precision of the top 100 retrieved documents on Reuters dataset (Supervised hashing), compared with other supervised baselines."
+  },
+  {
+    "Question": "What is the title of Figure 3?",
+    "Answer": "The precisions of the top 100 retrieved documents for NASH-DN with stochastic or deterministic binary latent variables."
+  }
+]
+```

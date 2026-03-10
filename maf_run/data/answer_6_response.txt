@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "Question": "6. **Color Scheme**: Do you have any preferences for the color scheme of the bars representing NASH and the baselines?",
+    "Answer": "NA"
+  }
+]
+```
