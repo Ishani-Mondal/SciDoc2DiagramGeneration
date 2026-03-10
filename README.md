@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SciDoc2Diagrammer-MAF
 
 This repository implements the **SciDoc2Diagrammer-MAF pipeline**, a system for automatically generating **scientific diagrams from research papers** guided by a user-defined intent and refined through **Multi-Aspect Feedback (MAF)**.
@@ -71,3 +72,6 @@ output/
    figures/*.png
 
 Move the JSON file into the experiment directory.
+=======
+# SciDoc2DiagramGeneration
+>>>>>>> d6531c33e42e63a86d8b69135a59236b7067f8b3
