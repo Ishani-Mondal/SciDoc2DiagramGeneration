@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SciDoc2Diagrammer-MAF
 
 This repository implements the **SciDoc2Diagrammer-MAF pipeline**, a system for automatically generating **scientific diagrams from research papers** guided by a user-defined intent and refined through **Multi-Aspect Feedback (MAF)**.
@@ -21,17 +21,17 @@ Two refinement strategies are supported:
 
 ## 1. Create a Python Environment
 
-```bash
 conda create -n scidoc-diagram python=3.10
 conda activate scidoc-diagram
 
 pip install -r requirements.txt
 
-Install and Run GROBID
+
+# Install and Run GROBID
 
 The SciPDF parser requires GROBID to extract structured content from research papers.
 
-Clone GROBID
+## Clone GROBID
 git clone https://github.com/kermitt2/grobid.git
 cd grobid
 Run the GROBID server
@@ -43,7 +43,7 @@ http://localhost:8070
 
 Verify by opening the URL in your browser.
 
-Install SciPDF Parser
+## Install SciPDF Parser
 
 Install the SciPDF parser:
 
@@ -51,7 +51,7 @@ pip install scipdf-parser
 
 
 
-Extract Figures from Papers using pdffigures2
+## Extract Figures from Papers using pdffigures2
 
 The pipeline requires figure metadata extracted using pdffigures2.
 
@@ -71,7 +71,6 @@ output/
    json/paper.json
    figures/*.png
 
+
 Move the JSON file into the experiment directory.
-=======
-# SciDoc2DiagramGeneration
->>>>>>> d6531c33e42e63a86d8b69135a59236b7067f8b3
+
